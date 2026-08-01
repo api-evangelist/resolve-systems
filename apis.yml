@@ -1,8 +1,22 @@
 aid: resolve-systems
 name: Resolve Systems
-description: Resolve Systems is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Resolve Systems (resolve.io) is an enterprise IT automation and AIOps platform
+  that helps IT and operations teams automate incident resolution, service-desk
+  workflows, and cross-domain remediation at scale. Its "Agentic Resolution
+  Fabric" combines a Knowledge Agent (contextual answers across chat, portals,
+  and collaboration tools), an Automation Agent (autonomous cross-domain
+  workflows that remediate, configure, and orchestrate IT processes in real
+  time), and Agent Assist (enriched diagnostics, related incidents, and
+  next-best actions). Product lines include Resolve Actions, Actions Pro,
+  Actions Express, and Barista, spanning IT process automation (ITPA), robotic
+  process automation, and agentic service management. The company positions
+  itself around cutting manual tickets by up to 90% and reports large aggregate
+  customer savings. Resolve is a portfolio company of Insight Partners. This
+  profile was enriched from public web sources; Resolve does not appear to
+  publish a public, self-service developer API, OpenAPI definition, or open
+  developer portal — integration and automation are delivered through the
+  platform's connectors and customer-gated documentation.
 url: https://raw.githubusercontent.com/api-evangelist/resolve-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +24,58 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- IT Automation
+- AIOps
+- IT Operations
+- Automation
+- Orchestration
+- Service Management
+- Agentic AI
+- ITPA
+image: https://resolve.io/favicon.ico
 apis: []
+common:
+- type: DomainSecurity
+  url: security/resolve-systems-domain-security.yml
+- type: Website
+  url: https://resolve.io
+- type: Documentation
+  url: https://docs.resolve.io
+- type: Integrations
+  url: https://resolve.io/capabilities/integrations
+- type: Blog
+  url: https://resolve.io/blog
+- type: LLMsTxt
+  url: llms/resolve-systems-llms.txt
+- type: PrivacyPolicy
+  url: https://resolve.io/legal/privacy-policy
+- type: TermsOfService
+  url: https://resolve.io/legal/website-terms-of-use
+- type: SignUp
+  url: https://resolve.io/request-demo
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

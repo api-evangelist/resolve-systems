@@ -1,0 +1,18 @@
+# Resolve Systems
+
+> Resolve Systems (resolve.io) is an enterprise IT automation and AIOps platform whose "Agentic Resolution Fabric" combines a Knowledge Agent, an Automation Agent, and Agent Assist to automate incident resolution, service-desk workflows, and cross-domain IT remediation. Product lines include Resolve Actions, Actions Pro, Actions Express, and Barista. Resolve is a portfolio company of Insight Partners. Resolve does not appear to publish a public, self-service developer API, OpenAPI definition, or open developer portal; integration and automation are delivered through platform connectors and customer-gated documentation.
+
+## Company
+- [Website](https://resolve.io): Resolve Systems agentic IT automation platform
+- [Integrations](https://resolve.io/capabilities/integrations): Platform connectors and integrations
+- [Blog](https://resolve.io/blog): Insights on intelligent automation, agentic IT, and the Zero Ticket future
+
+## Docs
+- [Documentation](https://docs.resolve.io): Product documentation for Resolve Actions, Pro, Express, and Barista (customer-gated)
+
+## Legal
+- [Privacy Policy](https://resolve.io/legal/privacy-policy)
+- [Terms of Use](https://resolve.io/legal/website-terms-of-use)
+
+## Note
+- No public REST API, OpenAPI/Swagger, developer portal, SDK registry, or /.well-known/security.txt was found on public surfaces as of 2026-07-20.
